@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="429.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.trabbim.telas.ListaAlunos">
+   <children>
+      <ComboBox fx:id="cbCurso" layoutX="60.0" layoutY="30.0" prefWidth="150.0" promptText="Escolha o curso" />
+      <ListView fx:id="lstAlunos" layoutX="308.0" layoutY="47.0" prefHeight="381.0" prefWidth="272.0" />
+      <Label fx:id="lbListaAlunos" layoutX="308.0" layoutY="30.0" text="Lista de alunos matriculados no curso:" />
+      <Button fx:id="btBuscar" layoutX="220.0" layoutY="66.0" mnemonicParsing="false" onAction="#buscar" text="Buscar" />
+      <Button fx:id="btLimpar" layoutX="220.0" layoutY="106.0" mnemonicParsing="false" onAction="#limpar" text="Limpar" />
+   </children>
+</AnchorPane>

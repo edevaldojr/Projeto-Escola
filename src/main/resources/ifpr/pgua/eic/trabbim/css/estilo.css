@@ -1,0 +1,38 @@
+.root{
+    -fx-background-image: url(https://images.hdqwalls.com/download/abstract-dark-red-3d-digital-art-vi-1600x900.jpg);
+}
+
+.text-field{
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(141, 2, 2);
+
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: rgb(126, 7, 7);
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.botao-limpar{
+    -fx-background-color: rgb(105, 105, 105);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:focused{
+    -fx-background-color: white;
+    -fx-text-fill: rgb(141, 2, 2);
+ }
+
+.label{
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
+
+.label-lista{
+    -fx-font-size: 12;
+    -fx-text-fill: rgb(141, 2, 2);
+}
