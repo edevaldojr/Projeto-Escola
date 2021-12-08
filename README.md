@@ -1,4 +1,4 @@
-# Projeto-OO-simulando-uma-parte-da-operacao-de-uma-escola
+# Projeto de Orientação a Objetos simulando parte de uma operação de uma escola!!
 
 Este é um projeto semestral de orientação a objetos do curso de TADS no IFPR!!
 
